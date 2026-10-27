@@ -1,11 +1,11 @@
-let a = 0;
+ let count = 0;
 
-let cou = document.getElementById("rr");
-let inc = document.getElementById("bb");
+        let counter = document.getElementById("counter");
+        let btn = document.getElementById("incrementBtn");
 
-inc.addEventListener("click", () => {
-	alert(a)
-    a++;
-    cou.textContent = a;
+        btn.addEventListener("click", () => {
+            alert(count);
 
-});
+            count++;
+            counter.textContent = count;
+        });
