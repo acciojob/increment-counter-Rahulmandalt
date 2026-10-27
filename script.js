@@ -6,5 +6,5 @@ let inc = document.getElementById("bb");
 inc.addEventListener("click", () => {
     a++;
     cou.textContent = a;
-    console.log(a);
+
 });
